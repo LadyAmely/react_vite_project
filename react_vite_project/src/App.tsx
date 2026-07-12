@@ -6,10 +6,8 @@ function App() {
   return (
     <>
     <section id="center" style={{ padding: '20px', display: 'flex', gap: '10px' }}>
-        <Button variant="default">Główny przycisk</Button>
-        <Button variant="outline" onClick={() => console.log('Kliknięto!')}>
-          Obrysowany
-        </Button>
+        <Button variant="default">Button</Button>
+        <div className="bg-red-500 w-10 h-10">TEST</div>
       </section>
     </>
   )
