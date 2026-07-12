@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
-import { cn } from '../../../../lib/utils';
+import { cn } from '../../../lib/utils';
 
 const radioVariants = cva(
   'w-4 h-4 rounded-full border appearance-none cursor-pointer transition-all focus:outline-none focus:ring-2 focus:ring-offset-2',

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
-import { cn } from '../../../../lib/utils';
+import { cn } from '../../../lib/utils';
 
 export const timelineItemVariants = cva(
   'z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 sm:ring-8 shrink-0 transition-colors', 
